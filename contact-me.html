@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me</title>
+    </head>
+    <h1>I'd Love To Hear From You</h1>
+    <div>
+        <form action="">
+            <div class="user_field">
+                <input type="text" name="fname" id="fname" placeholder="First Name" autocomplete="fname"
+                    pattern="^[a-zA-Z]{2,}$" required>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" autocomplete="lname"
+                    pattern="^[a-zA-Z]{2,}$" required>
+            </div>
+            <div class="email_field">
+                <input type="email" name="email" id="email" placeholder="name@example.com" autocomplete="email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            </div>
+            <div class="pwd_field">
+                <input type="password" name="pwd" id="pwd" placeholder="Password" autocomplete="new-password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    required>
+                <input type="password" name="confirm_pwd" id="confirm_pwd" placeholder="Confirm Password"
+                    autocomplete="new-password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    required>
+            </div>
+
+            <button value="Sign Up" class="button" disable><i class="fas fa-paper-plane"></i>Submit</button>
+        </form>
+    </div>
+    <p>You are Home once you click <span><a href="/">here.</a></span></p>
+
+    <body>
+
+    </body>
+
+</html>
